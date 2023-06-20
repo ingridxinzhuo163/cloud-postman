@@ -57,7 +57,7 @@ module.exports = async function (context, req) {
 
     headers: {
       "Content-Type": "application/json",
-      "X-CloudKnox-Access-Token": response1.data,
+      "X-xxx-Access-Token": response1.data,
     },
 
     data: data,
